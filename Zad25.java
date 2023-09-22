@@ -17,7 +17,8 @@ public class Zad25 {
             System.out.println("The object is too lightweight");
             return;
         }
-        System.out.println("The weight of an object is: " + force + "Newtons");
+        System.out.printf("The object's weight is %.2f Newtons", force);
 
     }
 }
+
